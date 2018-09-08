@@ -1,4 +1,4 @@
-const sum = ( arr ) => {
+export const sum = ( arr = [] ) => {
     if ( arr.length === 0 ) {
       return 0;
     }
