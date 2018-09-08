@@ -4,8 +4,8 @@
   "author": "Simone Amorim",
   "license": "MIT",
   "scripts": {
-    "test": "jest --coverage",
-    "test:watch": "npm test -- --watch"
+    "test": "jest -- --watch",
+    "test:coverage": "npm test -- --coverage"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
